@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import "dotenv/config";
 import { agent } from "./agent.js";
 import { addYTVideoToVectorStore } from "./embeddings.js";
 const port = process.env.PORT || 3000;
