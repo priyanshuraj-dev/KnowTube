@@ -13,12 +13,18 @@
   "dependencies": {
     "@google/genai": "^2.9.0",
     "@langchain/classic": "^1.0.36",
+    "@langchain/community": "^1.1.29",
     "@langchain/core": "^1.2.0",
     "@langchain/google-genai": "^2.2.0",
     "@langchain/langgraph": "^1.4.4",
+    "@langchain/pgvector": "^0.1.0",
     "@langchain/textsplitters": "^1.0.1",
     "@pinecone-database/pinecone": "^8.0.0",
+    "@types/express": "^5.0.6",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
     "langchain": "^1.5.0",
+    "pg": "^8.22.0",
     "zod": "^4.4.3"
   }
 }
